@@ -15,6 +15,13 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
+    UILabel * lbl = [[UILabel alloc]initWithFrame:CGRectMake(34, 78, 188, 90)];
+    lbl.text = @"skjsk";
+    lbl.textColor = [UIColor redColor];
+    [self.view addSubview:lbl];
+    
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
